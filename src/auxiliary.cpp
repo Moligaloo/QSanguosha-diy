@@ -45,5 +45,19 @@ QColor Engine::getKingdomColor(const QString &kingdom) const{
 }
 
 QString Engine::translate(const QString &key) const{
-    return key;
+    static QMap<QString, QString> t;
+    if(t.isEmpty()){
+        t["wei"] = tr("wei");
+        t["shu"] = tr("shu");
+        t["wu"] = tr("wu");
+        t["qun"] = tr("qun");
+        t["god"] = tr("god");
+
+        t["spade"] = tr("spade");
+        t["heart"] = tr("heart");
+        t["club"] = tr("club");
+        t["diamond"] = tr("diamond");
+    }
+
+    return t.value(key);
 }

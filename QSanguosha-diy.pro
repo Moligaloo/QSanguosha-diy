@@ -12,3 +12,5 @@ HEADERS += src/cardeditor.h \
     src/auxiliary.h
 
 INCLUDEPATH += src
+
+TRANSLATIONS += sanguosha-diy.ts
