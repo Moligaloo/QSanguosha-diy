@@ -21,7 +21,7 @@
 #ifdef Q_OS_MACX
 static QSettings Config("QSanguosha", "QSanguosha-diy");
 #else
-static QSettings config("config.ini", QSettings::IniFormat);
+static QSettings Config("config.ini", QSettings::IniFormat);
 #endif
 
 BlackEdgeTextItem::BlackEdgeTextItem()
