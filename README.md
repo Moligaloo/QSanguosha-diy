@@ -1,4 +1,4 @@
 QSanguosha-diy
 ==============
 
-This program allows to create Sanguosha DIY card easily
+This program allows users to create Sanguosha DIY card easily
